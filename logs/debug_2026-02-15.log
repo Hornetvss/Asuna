@@ -1,0 +1,18 @@
+2026-02-15 23:25:52.735 | ERROR    | __main__:<module>:178 | An error has been caught in function '<module>', process 'MainProcess' (10068), thread 'MainThread' (139786074082176): | {}
+Traceback (most recent call last):
+
+> File "/app/open-llm-vtuber/run_server.py", line 178, in <module>
+    run(console_log_level=console_log_level)
+    │                     └ 'INFO'
+    └ <function run at 0x7f226b4c7e20>
+
+  File "/app/open-llm-vtuber/run_server.py", line 122, in run
+    logger.info(f"Open-LLM-VTuber, version v{get_version()}")
+    │      │                                 └ <function get_version at 0x7f2279cf84a0>
+    │      └ <function Logger.info at 0x7f2279cefec0>
+    └ <loguru.logger handlers=[(id=3, level=20, sink=<stderr>), (id=4, level=10, sink='logs/debug_{time:YYYY-MM-DD}.log')]>
+
+  File "/app/open-llm-vtuber/run_server.py", line 23, in get_version
+    with open("pyproject.toml", "rb") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'pyproject.toml'
