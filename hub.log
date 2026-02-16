@@ -1,0 +1,16 @@
+2026-02-16 00:09:34.581 | INFO     | __main__:main:76 - Starting Asuna Live Hub...
+2026-02-16 00:09:34.601 | INFO     | __main__:start_overlay_server:72 - Overlay Server started at http://localhost:5000/overlay.html
+2026-02-16 00:09:34.602 | WARNING  | __main__:main:111 - Twitch config missing or default. Skipping Twitch.
+2026-02-16 00:09:34.602 | INFO     | __main__:main:122 - TikFinity module initialized.
+2026-02-16 00:09:34.636 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:09:39.645 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:09:44.653 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:09:49.663 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:09:54.672 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:09:59.680 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:10:04.687 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:10:09.697 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:10:14.715 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:10:19.739 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:10:24.748 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
+2026-02-16 00:10:29.757 | ERROR    | open_llm_vtuber.live.tikfinity_live:connect:24 - Failed to connect to TikFinity: Multiple exceptions: [Errno 111] Connect call failed ('::1', 21213, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 21213)
