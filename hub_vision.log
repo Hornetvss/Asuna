@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/app/open-llm-vtuber/run_live_hub.py", line 24, in <module>
+    from open_llm_vtuber.vision_loop import VisionMonitor
+  File "/app/open-llm-vtuber/src/open_llm_vtuber/vision_loop.py", line 4, in <module>
+    from .vision import vision_manager
+  File "/app/open-llm-vtuber/src/open_llm_vtuber/vision.py", line 53, in <module>
+    vision_manager = VisionManager()
+                     ^^^^^^^^^^^^^^^
+  File "/app/open-llm-vtuber/src/open_llm_vtuber/vision.py", line 12, in __init__
+    self.sct = mss.mss()
+               ^^^^^^^^^
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/site-packages/mss/factory.py", line 32, in mss
+    return linux.MSS(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/site-packages/mss/linux.py", line 286, in __init__
+    raise ScreenShotError(msg) from None
+mss.exception.ScreenShotError: $DISPLAY not set.
